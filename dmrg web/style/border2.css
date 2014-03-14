@@ -1,0 +1,65 @@
+@charset "utf-8";
+/*by yoyocat24 09'08/12*/
+/* CSS Document */
+	div#content_data{
+		width: 900px;
+		height: auto;
+		overflow: hidden;
+		background: url(../img/border.jpg) repeat-y right;
+		margin-top: 35px;
+		margin-left: auto;
+	    margin-right:auto;
+		margin-buttom: 10px;
+		}
+	div.content_data_top{
+		width: 100%;
+		height: 10px;
+		background: url(../img/border.jpg) repeat-x top;
+		}
+		div.top_left{
+			width: 10px;
+			height: 10px;
+			float: left;
+			background: url(../img/boder_bg.jpg) top left no-repeat;
+			}
+			div.top_right{
+			width: 10px;
+			height: 10px;
+			float: right;
+			background: url(../img/boder_bg.jpg) top right no-repeat;
+			}
+			
+	div.content_data_center:after {
+				content: ".";
+				display: block;
+				height: 0;
+				overflow: hidden;
+				visibility: hidden;
+				clear: both;
+				}		
+	div.content_data_center{
+		height: 100%;
+		width: 100%;
+		background: url(../img/border.jpg) repeat-y left center;
+		padding: 0;
+		overflow: hidden;
+		clear: both;
+		}
+
+	div.content_data_bottom{
+		width: 100%;
+		height: 10px;
+		background: url(../img/border.jpg) repeat-x bottom;
+		}
+		div.bottom_left{
+			width: 10px;
+			height: 10px;
+			float: left;
+			background: url(../img/boder_bg.jpg) bottom left no-repeat;
+			}
+		div.bottom_right{
+			width: 10px;
+			height: 10px;
+			float: right;
+			background: url(../img/boder_bg.jpg) bottom right;
+			}
